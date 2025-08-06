@@ -6,8 +6,15 @@ logo = Image.open("logo.jpg")
 st.image(logo, use_container_width=True)
 
 # Title of the app
-st.title("PharmaCalc: Multi-Tab Calculator Suite")
+st.title("<h2>Dosage Calculators</h2>", unsafe_allow_html=True)
+st.title(
+    "<p style='font-size: 20px;'>A free dosage calculator for pharmacists, undergraduate and graduate students in pharmaceutics and biomedical research</p>",
+    unsafe_allow_html=True
+)
 
+# Placeholder for tabs and calculators
+st.markdown("---")
+st.info("Select a calculator from the sidebar or tabs.")
 # Define tabs
 tabs = st.tabs([
     "Clinical Pharmacy",
