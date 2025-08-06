@@ -6,8 +6,8 @@ logo = Image.open("logo.jpg")
 st.image(logo, width=200)
 
 # Title of the app
-st.title("<h2>Dosage Calculators</h2>", unsafe_allow_html=True)(
-    "<p style='font-size: 20px;'>A free dosage calculator for pharmacists, undergraduate and graduate students in pharmaceutics and biomedical research</p>",
+st.title("<h2>Dosage Calculators</h2>", unsafe_allow_html=True)
+st.markdown("<p style='font-size: 20px;'>A free dosage calculator for pharmacists, undergraduate and graduate students in pharmaceutics and biomedical research</p>",
     unsafe_allow_html=True)
 
 # Placeholder for tabs and calculators
