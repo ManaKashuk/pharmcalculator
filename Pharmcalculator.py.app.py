@@ -77,34 +77,3 @@ if st.button("Calculate Bioavailability"):
         st.success(f"Relative Bioavailability: {result:.2f}%")
     else:
         st.error("Invalid input. Please ensure none of the values are zero.")
-
-
-
-# Add new tabs for additional calculators
-new_tabs = st.tabs([
-    "Medication Dose",
-    "IV Rate & Time",
-    "Pediatric Dosing",
-    "Clinical Tools",
-    "IV Medication Conversions"
-])
-
-with new_tabs[0]:
-    st.header("Medication Dose Calculators")
-    st.info("Medication Dose calculators are under development. Stay tuned!")
-
-with new_tabs[1]:
-    st.header("IV Rate & Time Calculators")
-    st.info("IV Rate & Time calculators are under development. Stay tuned!")
-
-with new_tabs[2]:
-    st.header("Pediatric Dosing Calculators")
-    st.info("Pediatric dosing calculators are under development. Stay tuned!")
-
-with new_tabs[3]:
-    st.header("Clinical Tools")
-    st.info("Clinical tools are under development. Stay tuned!")
-
-with new_tabs[4]:
-    st.header("IV Medication Conversions")
-    st.info("IV medication conversion calculators are under development. Stay tuned!")
