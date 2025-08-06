@@ -8,7 +8,7 @@ st.image(logo, width=200)
 # Updated title and tagline
 st.markdown("<h2>Dosage Calculators</h2>", unsafe_allow_html=True)
 st.markdown(
-    "<p style='font-size: 16px;'>A free dosage calculator for pharmacists, undergraduate and graduate students in pharmaceutics and biomedical research</p>",
+    "<p style='font-size: 20px;'>A free dosage calculator for pharmacists, undergraduate and graduate students in pharmaceutics and biomedical research</p>",
     unsafe_allow_html=True
 )
 
