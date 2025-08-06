@@ -12,7 +12,13 @@ st.markdown("<p style='font-size: 20px;'>A free dosage calculator for pharmacist
 
 # Placeholder for tabs and calculators
 st.markdown(
-    \"\"\"\n    <p style='font-size:18px; font-style:italic; color:#6C3483;'>\n    ➡️ <strong>Select a calculator</strong> from the sidebar or tabs to begin your dosage journey.\n    </p>\n    \"\"\",\n    unsafe_allow_html=True\n)
+    """
+    <p style='font-size:18px; font-style:italic; color:#6C3483;'>
+    ➡️ <strong>Select a calculator</strong> from the sidebar or tabs to begin your dosage journey.
+    </p>
+    """,
+    unsafe_allow_html=True
+)
 
 # Define tabs
 tabs = st.tabs([
