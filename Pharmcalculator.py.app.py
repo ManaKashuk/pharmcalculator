@@ -7,7 +7,7 @@ st.image(logo, width=200)
 
 # Update title of the app
 st.markdown("<h2>Dosage Calculators</h2>", unsafe_allow_html=True)
-st.markdown("<p style='font-size: 20px;'>A free dosage calculator for pharmacists, undergraduate and graduate students in pharmaceutics and biomedical research</p>",
+st.markdown("<p style='font-size: 26px;'>A free dosage calculator for pharmacists, undergraduate and graduate students in pharmaceutics and biomedical research.</p>",
     unsafe_allow_html=True)
 
 # Placeholder for tabs and calculators
