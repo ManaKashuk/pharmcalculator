@@ -137,3 +137,14 @@ with tabs[4]:
             st.success(f"IV Flow Rate: {result:.2f} mL/min")
         else:
             st.error("Invalid input. Time cannot be zero.")
+
+    if st.button("Explain this result"):
+    explanation = generate_explanation("bioavailability", result)
+    st.markdown(explanation)
+    
+    def generate_explanation(calculator_type, value):
+    if calculator_type == "bioavailability":
+        return f"""
+        A bioavailability of {value}% means that the drug administered orally reaches the systemic circulation at {value}% efficiency compared to intravenous administration.
+        This is considered {'high' if value > 80 else 'moderate' if value > 50 else 'low'}, and may influence dosing frequency or formulation choice.
+        """
