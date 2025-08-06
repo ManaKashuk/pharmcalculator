@@ -9,7 +9,7 @@ logo = Image.open("logo.jpg")
 st.image(logo, width=200)
 st.title("Dosage Calculators")
 st.markdown(
-    "<p style='font-size:28px; font-style:italic; color:#34495E;'>"
+    "<p style='font-size:26px; font-style:italic; color:#34495E;'>"
     "A free dosage calculator for pharmacists, undergraduate and graduate students in pharmaceutics and biomedical research."
     "</p>",
     unsafe_allow_html=True
