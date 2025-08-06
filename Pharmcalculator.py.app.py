@@ -3,7 +3,7 @@ from PIL import Image
 
 # Load and display the PharmCalculator logo at the top
 logo = Image.open("logo.jpg")
-st.image(logo, use_container_width=True)
+st.image(logo, width=200)
 
 # Title of the app
 st.title("PharmaCalc: Multi-Tab Calculator Suite")
